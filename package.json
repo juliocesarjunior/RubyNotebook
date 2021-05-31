@@ -1,5 +1,7 @@
 {
   "name": "notebook2_0",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "bower": "^1.8.12"
+  }
 }

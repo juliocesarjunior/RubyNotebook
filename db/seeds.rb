@@ -7,5 +7,4 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 puts "Gerando Tipos de Contatos(Kinds)..."
 Kind.create!([{description: "Amigo"}, {description: "Contato"}, {description: "Comercial"}])
-puts "Gerando Tipos de Contatos(kinds)...[ok]"
-
+puts "Gerando Tipos de contatos(Kinds)...[ok]"

@@ -1,0 +1,8 @@
+"pt-BR":
+  messages:
+    listing: Listando
+    confirm: Tem Certeza?
+    errors:  não permitidos?
+    created: Item criado com sucesso!
+    updated: Item atualizado com sucesso!
+    destroyed: Item excluído com sucesso!

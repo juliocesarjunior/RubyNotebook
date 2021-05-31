@@ -3,14 +3,32 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.7.0'
 
+gem 'bundler', '>= 1.8.4'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+
+gem 'rails-assets-bootstrap', '3.3.6', source: 'https://rails-assets.org'
+gem 'rails-assets-notifyjs', source: 'https://rails-assets.org'
+
 gem 'rails', '~> 5.2.3'
 # Use sqlite3 as the database for Active Record
+
+gem 'jquery-rails'
+
 gem 'sqlite3'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
-
+#O Lero-lero Generator é uma ferramenta capaz de gerar frases que 'falam' muita coisa mas que não tem conteúdo algum.
+gem 'lerolero_generator'
+#A Scope & Engine based, clean, powerful, customizable and sophisticated paginator for Ruby webapps
+gem 'kaminari'
+#i18n kaminari
+gem 'kaminari-i18n'
+#Repository for collecting Locale data for Ruby on Rails I18n as well as other interesting, Rails related I18n stuff
+gem 'rails-i18n', '~> 5.1' # For 5.0.x, 5.1.x and 5.2.x
+#Cria Informação
 gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'master'
+#Dynamic nested forms using jQuery made easy; works with formtastic, simple_form or default forms
+gem "cocoon"
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
